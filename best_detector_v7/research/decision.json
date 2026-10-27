@@ -1,0 +1,25 @@
+{
+  "candidate": "xgb_motion4_plus_v5",
+  "promoted": true,
+  "candidate_ranking": {
+    "f1_mean": 0.8284313725490197,
+    "start_error_median_abs": 0.3400000000001455,
+    "false_alarms_per_hour": 5.85699178394208
+  },
+  "candidate_diagnostic": {
+    "f1_mean": 0.8571428571428571,
+    "start_error_median_abs": 0.22000000000002728,
+    "false_alarms_per_hour": 5.187519213034123
+  },
+  "v5_ranking": {
+    "f1_mean": 0.823529411764706,
+    "start_error_median_abs": 0.4399999999998272,
+    "false_alarms_per_hour": 4.880826486618401
+  },
+  "v5_diagnostic": {
+    "f1_mean": 0.8333333333333334,
+    "start_error_median_abs": 0.4200000000000159,
+    "false_alarms_per_hour": 3.4583461420227484
+  },
+  "note": "22 configurations, 48 decoder trials each, selected on val_00..02. Reused validation and diagnostic are not independent test results."
+}

@@ -1,0 +1,142 @@
+{
+  "architecture": "boundary_tcn",
+  "selected_epochs": 12,
+  "probe_history": [
+    {
+      "epoch": 1,
+      "loss": 0.16718257038870402
+    },
+    {
+      "epoch": 2,
+      "loss": 0.0751252179605919,
+      "internal_ranking": {
+        "f1_mean": 0.7747747747747749,
+        "start_error_median_abs": 0.18000000000029104,
+        "false_alarms_per_hour": 7.733553309960818
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.06319821802409072
+    },
+    {
+      "epoch": 4,
+      "loss": 0.04187627120368313,
+      "internal_ranking": {
+        "f1_mean": 0.8127853881278537,
+        "start_error_median_abs": 0.17999999999999972,
+        "false_alarms_per_hour": 5.413487316972572
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.034153768939799385
+    },
+    {
+      "epoch": 6,
+      "loss": 0.026564493293367457,
+      "internal_ranking": {
+        "f1_mean": 0.7792207792207791,
+        "start_error_median_abs": 0.39999999999997726,
+        "false_alarms_per_hour": 8.5069086409569
+      }
+    },
+    {
+      "epoch": 7,
+      "loss": 0.02353632892073508
+    },
+    {
+      "epoch": 8,
+      "loss": 0.018266227329149842,
+      "internal_ranking": {
+        "f1_mean": 0.8245614035087719,
+        "start_error_median_abs": 0.2099999999999227,
+        "false_alarms_per_hour": 6.960197978964735
+      }
+    },
+    {
+      "epoch": 9,
+      "loss": 0.01549549922020289
+    },
+    {
+      "epoch": 10,
+      "loss": 0.014296824868212928,
+      "internal_ranking": {
+        "f1_mean": 0.8177777777777777,
+        "start_error_median_abs": 0.1999999999998181,
+        "false_alarms_per_hour": 6.960197978964735
+      }
+    },
+    {
+      "epoch": 11,
+      "loss": 0.013463392600482493
+    },
+    {
+      "epoch": 12,
+      "loss": 0.011988795072395812,
+      "internal_ranking": {
+        "f1_mean": 0.8245614035087719,
+        "start_error_median_abs": 0.20000000000004547,
+        "false_alarms_per_hour": 6.960197978964735
+      }
+    }
+  ],
+  "refit_history": [
+    {
+      "epoch": 1,
+      "loss": 0.14938794769398817
+    },
+    {
+      "epoch": 2,
+      "loss": 0.07469261911782352
+    },
+    {
+      "epoch": 3,
+      "loss": 0.05861280589540313
+    },
+    {
+      "epoch": 4,
+      "loss": 0.04784695483040768
+    },
+    {
+      "epoch": 5,
+      "loss": 0.04034083808765753
+    },
+    {
+      "epoch": 6,
+      "loss": 0.030336835551876704
+    },
+    {
+      "epoch": 7,
+      "loss": 0.02315018437412027
+    },
+    {
+      "epoch": 8,
+      "loss": 0.018753990758913798
+    },
+    {
+      "epoch": 9,
+      "loss": 0.01734841916176093
+    },
+    {
+      "epoch": 10,
+      "loss": 0.015341816222542649
+    },
+    {
+      "epoch": 11,
+      "loss": 0.013247198532693662
+    },
+    {
+      "epoch": 12,
+      "loss": 0.012348650326183834
+    }
+  ],
+  "selection": "train_10..12 event F1, fixed decoder; refit train_00..12",
+  "component": {
+    "name": "boundary_tcn",
+    "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\research_v7\\boundary_tcn\\model.pt",
+    "kind": "research_nn",
+    "features": "base",
+    "weight": 1.0
+  }
+}

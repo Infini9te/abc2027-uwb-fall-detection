@@ -1,0 +1,49 @@
+{
+  "files_sha256": {
+    "boundary_trials.json": "a95919f5f70e56f9c0dfede54072685f175f9313ff7f483d723bf6c1ae3c8cf2",
+    "decision.json": "3b54d3904e22defeaaa61ed5c59d9f16bc94c8a81abd4efa3cc22ab3e1ea22b9",
+    "diagnostic_report.json": "66aca696801a6e6aee8a2e1163b5ecb1c2938276fb5ccb75e0eb2e4adf21ff91",
+    "EXPERIMENTS.md": "c93597ebaf05dfe43847be8bed875cbed67732c3252d10338fcc1f81cf9ef823",
+    "README.md": "4d61500feb83c0156e4ddd989df40d8627bb57b5ff2f4301a1c8a60f2f3c352d",
+    "requirements.txt": "aabfcb2c4c21feaee436e071547be4b59ef53dbedc7edeff8a946fc004976840",
+    "Run-Best.ps1": "55195b87deaba25c0d3422ede7182e820bca2905db6f539c0b359c5af4ae6057",
+    "search_plan.json": "3e6f9bbec8485a560fe888c4683b4920af6b4236c4e73429d3b857b095cd366d",
+    "tuning_leaderboard.json": "d9113df93b7d7b3489c3f5b295dc14d24fc2871b7d831e96c3d4f36e93af357a",
+    "uwb_detector.py": "cac458d27077cd50c86c60821d30bdc9340c28f71e6a476a4597590ade7f01c8",
+    "uwb_search_v4.py": "c425d02b8ae1c9f9385ca211d94d88186bdfba3fa0a728b13a3497a947f8707b",
+    "uwb_temporal_v2.py": "18b01bbe242d8bd53974b5d8e5bbfd5e6e2a4a9ed2c5e90890f637a92a126837",
+    "validation_report.json": "e98a7e4543ee418c4bc874eb1cadf60e196e600837e1b55a98b9a6e1ef08ad12",
+    "models\\motion_only.joblib": "45a6e8d56215c209febcf70037bcfe0c5e80eb9a64f22d8b48b3f3aed6f476ff",
+    "models\\tcn16_seed2029.pt": "d2ab0ad58ab9d1525f729fb50da98b2ecb16c3fa9a8e3ff568e9c741b0a72cf1",
+    "search_v4\\replay_errors.json": "638c96eaf3151ac4d98802935af10fef07d4c1686e4ae6243e66d8748fb68924",
+    "search_v4\\replay_predictions.csv": "fabf75e515b353251fc6593359d5c48bb2186e3a82e63760e806606375c75b28",
+    "search_v4\\replay_report.json": "e98a7e4543ee418c4bc874eb1cadf60e196e600837e1b55a98b9a6e1ef08ad12",
+    "search_v4\\selected.json": "13126fa045b58f18276a04705ae7895bf649c5d2908a066f408aa7a341faffbc",
+    "search_v4\\selected_probabilities.npz": "bdc6520555c1f30ecbc64a32eb68d19784573dfeaf343d09a592b9a5a7b57488",
+    "search_v4\\val_submission.csv": "fabf75e515b353251fc6593359d5c48bb2186e3a82e63760e806606375c75b28"
+  },
+  "versions": {
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1",
+    "torch": "2.14.1+cpu",
+    "h5py": "3.16.0",
+    "joblib": "1.6.0",
+    "scipy": "1.18.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "selected": "top_two",
+  "validation_score": 0.8105515587529976,
+  "additional_delay_seconds": 0.0,
+  "verification": [
+    "all validation probabilities reproduced",
+    "packaged replay reproduced",
+    "unlabeled synthetic test passed",
+    "official evaluator unchanged"
+  ],
+  "search_counts": {
+    "new_models": 8,
+    "configurations": 18,
+    "boundary_refinements": 27,
+    "decoder_trials_per_configuration": 48
+  }
+}

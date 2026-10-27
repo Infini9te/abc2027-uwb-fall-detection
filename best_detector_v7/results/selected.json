@@ -1,0 +1,43 @@
+{
+  "name": "xgb_motion4_plus_v5",
+  "decoder": {
+    "high": 0.7,
+    "low": 0.5249999999999999,
+    "gap": 5,
+    "smooth": 1,
+    "start_shift": 0.0,
+    "end_shift": 0.0
+  },
+  "boundary": null,
+  "alarm_delay": 0.0,
+  "components": [
+    {
+      "name": "xgb_motion4",
+      "path": "models/xgb_motion4.joblib",
+      "kind": "tree",
+      "features": "motion",
+      "weight": 0.5
+    },
+    {
+      "name": "motion",
+      "path": "models/motion.joblib",
+      "kind": "tree",
+      "features": "motion",
+      "weight": 0.325
+    },
+    {
+      "name": "seed28",
+      "path": "models/seed28.pt",
+      "kind": "tcn",
+      "features": "base",
+      "weight": 0.0875
+    },
+    {
+      "name": "seed29",
+      "path": "models/seed29.pt",
+      "kind": "tcn",
+      "features": "base",
+      "weight": 0.0875
+    }
+  ]
+}

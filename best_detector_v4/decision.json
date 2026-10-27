@@ -1,0 +1,20 @@
+{
+  "selected": "top_two",
+  "promoted": true,
+  "ranking": {
+    "f1_mean": 0.8105515587529976,
+    "start_error_median_abs": 0.4399999999999835,
+    "false_alarms_per_hour": 6.83315708126576
+  },
+  "diagnostic": {
+    "f1_mean": 0.7936507936507936,
+    "start_error_median_abs": 0.27000000000003865,
+    "false_alarms_per_hour": 5.187519213034123
+  },
+  "previous": {
+    "f1_mean": 0.7586206896551723,
+    "start_error_median_abs": 0.7599999999999909,
+    "false_alarms_per_hour": 10.24973562189864
+  },
+  "note": "Validation reused; diagnostic is a rejection gate, not independent evidence. No guarantee on hidden test."
+}

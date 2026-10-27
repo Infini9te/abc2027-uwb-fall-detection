@@ -1,0 +1,36 @@
+{
+  "name": "seed28_seed29_motion0.65",
+  "decoder": {
+    "high": 0.55,
+    "low": 0.275,
+    "gap": 5,
+    "smooth": 1,
+    "start_shift": 0.0,
+    "end_shift": -0.15
+  },
+  "boundary": null,
+  "alarm_delay": 0.0,
+  "components": [
+    {
+      "name": "motion",
+      "path": "models/motion.joblib",
+      "kind": "tree",
+      "features": "motion",
+      "weight": 0.65
+    },
+    {
+      "name": "seed28",
+      "path": "models/seed28.pt",
+      "kind": "tcn",
+      "features": "base",
+      "weight": 0.175
+    },
+    {
+      "name": "seed29",
+      "path": "models/seed29.pt",
+      "kind": "tcn",
+      "features": "base",
+      "weight": 0.175
+    }
+  ]
+}

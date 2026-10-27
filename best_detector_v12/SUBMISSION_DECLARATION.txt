@@ -1,0 +1,1 @@
+The original LIARA source recordings and external copies were not used for training or inference. Only the released challenge data were used. Each test stream was processed independently. No matching or alignment was used to identify repeated content within a stream, across streams, or against training/validation segments.

@@ -1,0 +1,23 @@
+{
+  "status": "PASS official prediction validator",
+  "model": "V12 short I/Q future-context blend",
+  "prediction_count": 90,
+  "submission": "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v12\\results\\val_submission.csv",
+  "submission_sha256": "b8f059671969239cecb0fd3e354981015f00e5a783e1580cb9fafd3c49861588",
+  "streams": {
+    "val_00": 1763.78,
+    "val_01": 1768.42,
+    "val_02": 1761.68,
+    "val_03": 1770.52,
+    "val_04": 311.4
+  },
+  "official_test_score": null,
+  "independent_streams": true,
+  "elapsed_seconds": 6.2757728099823,
+  "validation_ranking": {
+    "f1_mean": 0.8537170263788969,
+    "start_error_median_abs": 0.2499999999999858,
+    "false_alarms_per_hour": 4.880826486618401
+  },
+  "probability_replay_pass": true
+}

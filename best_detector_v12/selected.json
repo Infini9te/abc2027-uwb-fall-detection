@@ -1,0 +1,50 @@
+{
+  "name": "V12 short I/Q future-context blend",
+  "components": [
+    {
+      "name": "xgb_motion4",
+      "path": "models/xgb_motion4.joblib",
+      "kind": "tree",
+      "features": "motion",
+      "weight": 0.25
+    },
+    {
+      "name": "motion",
+      "path": "models/motion.joblib",
+      "kind": "tree",
+      "features": "motion",
+      "weight": 0.1625
+    },
+    {
+      "name": "seed28",
+      "path": "models/seed28.pt",
+      "kind": "tcn",
+      "features": "base",
+      "weight": 0.04375
+    },
+    {
+      "name": "seed29",
+      "path": "models/seed29.pt",
+      "kind": "tcn",
+      "features": "base",
+      "weight": 0.04375
+    },
+    {
+      "name": "iq_short_future",
+      "path": "models/iq_short_future.joblib",
+      "kind": "tree",
+      "features": "iq_short_future",
+      "weight": 0.5
+    }
+  ],
+  "decoder": {
+    "high": 0.55,
+    "low": 0.41250000000000003,
+    "gap": 5,
+    "smooth": 1,
+    "start_shift": 0.0,
+    "end_shift": -0.15
+  },
+  "lookahead_seconds": 0.5,
+  "hard_negative_weighting": false
+}

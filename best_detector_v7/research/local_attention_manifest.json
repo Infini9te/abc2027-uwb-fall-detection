@@ -1,0 +1,126 @@
+{
+  "architecture": "local_attention",
+  "selected_epochs": 8,
+  "probe_history": [
+    {
+      "epoch": 1,
+      "loss": 0.16183185519389154
+    },
+    {
+      "epoch": 2,
+      "loss": 0.0702820465769292,
+      "internal_ranking": {
+        "f1_mean": 0.7853881278538813,
+        "start_error_median_abs": 0.15999999999996817,
+        "false_alarms_per_hour": 6.960197978964735
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.05779992896050476
+    },
+    {
+      "epoch": 4,
+      "loss": 0.03730368972837664,
+      "internal_ranking": {
+        "f1_mean": 0.7567567567567567,
+        "start_error_median_abs": 0.32999999999992724,
+        "false_alarms_per_hour": 6.960197978964735
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.027449733700211112
+    },
+    {
+      "epoch": 6,
+      "loss": 0.02104102826285127,
+      "internal_ranking": {
+        "f1_mean": 0.7644444444444445,
+        "start_error_median_abs": 0.4799999999999045,
+        "false_alarms_per_hour": 6.960197978964735
+      }
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0178491377431017
+    },
+    {
+      "epoch": 8,
+      "loss": 0.012608820509181865,
+      "internal_ranking": {
+        "f1_mean": 0.8177777777777777,
+        "start_error_median_abs": 0.1999999999999318,
+        "false_alarms_per_hour": 6.186842647968653
+      }
+    },
+    {
+      "epoch": 9,
+      "loss": 0.009723505833763187
+    },
+    {
+      "epoch": 10,
+      "loss": 0.006666592996783979,
+      "internal_ranking": {
+        "f1_mean": 0.7719298245614036,
+        "start_error_median_abs": 0.2400000000000002,
+        "false_alarms_per_hour": 7.733553309960818
+      }
+    },
+    {
+      "epoch": 11,
+      "loss": 0.005830577813245135
+    },
+    {
+      "epoch": 12,
+      "loss": 0.004695494169585831,
+      "internal_ranking": {
+        "f1_mean": 0.7619047619047619,
+        "start_error_median_abs": 0.2199999999997999,
+        "false_alarms_per_hour": 8.5069086409569
+      }
+    }
+  ],
+  "refit_history": [
+    {
+      "epoch": 1,
+      "loss": 0.14680187151461213
+    },
+    {
+      "epoch": 2,
+      "loss": 0.07107997337890255
+    },
+    {
+      "epoch": 3,
+      "loss": 0.051740604250893725
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0428400698958056
+    },
+    {
+      "epoch": 5,
+      "loss": 0.03527974566262398
+    },
+    {
+      "epoch": 6,
+      "loss": 0.025139551847469764
+    },
+    {
+      "epoch": 7,
+      "loss": 0.018875410497006213
+    },
+    {
+      "epoch": 8,
+      "loss": 0.013945016100631466
+    }
+  ],
+  "selection": "train_10..12 event F1, fixed decoder; refit train_00..12",
+  "component": {
+    "name": "local_attention",
+    "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\research_v7\\local_attention\\model.pt",
+    "kind": "research_nn",
+    "features": "base",
+    "weight": 1.0
+  }
+}

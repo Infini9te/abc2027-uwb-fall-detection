@@ -1,0 +1,118 @@
+{
+  "architecture": "cnn_lstm",
+  "selected_epochs": 6,
+  "probe_history": [
+    {
+      "epoch": 1,
+      "loss": 0.27670235044666025
+    },
+    {
+      "epoch": 2,
+      "loss": 0.10745272939011716,
+      "internal_ranking": {
+        "f1_mean": 0.7377777777777778,
+        "start_error_median_abs": 0.5799999999999272,
+        "false_alarms_per_hour": 6.960197978964735
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.07715532757145793
+    },
+    {
+      "epoch": 4,
+      "loss": 0.055287861649208424,
+      "internal_ranking": {
+        "f1_mean": 0.7605633802816901,
+        "start_error_median_abs": 0.459999999999809,
+        "false_alarms_per_hour": 3.866776654980409
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.05108220929998839
+    },
+    {
+      "epoch": 6,
+      "loss": 0.04185870798762169,
+      "internal_ranking": {
+        "f1_mean": 0.8148148148148149,
+        "start_error_median_abs": 0.22000000000002728,
+        "false_alarms_per_hour": 4.64013198597649
+      }
+    },
+    {
+      "epoch": 7,
+      "loss": 0.03693989572817819
+    },
+    {
+      "epoch": 8,
+      "loss": 0.03132822820426602,
+      "internal_ranking": {
+        "f1_mean": 0.8088888888888889,
+        "start_error_median_abs": 0.2400000000000091,
+        "false_alarms_per_hour": 6.186842647968653
+      }
+    },
+    {
+      "epoch": 9,
+      "loss": 0.0291170739454397
+    },
+    {
+      "epoch": 10,
+      "loss": 0.025886066937043022,
+      "internal_ranking": {
+        "f1_mean": 0.7837837837837838,
+        "start_error_median_abs": 0.31999999999993634,
+        "false_alarms_per_hour": 6.186842647968653
+      }
+    },
+    {
+      "epoch": 11,
+      "loss": 0.024719449114503765
+    },
+    {
+      "epoch": 12,
+      "loss": 0.022650041646046334,
+      "internal_ranking": {
+        "f1_mean": 0.7747747747747747,
+        "start_error_median_abs": 0.22000000000002728,
+        "false_alarms_per_hour": 6.186842647968653
+      }
+    }
+  ],
+  "refit_history": [
+    {
+      "epoch": 1,
+      "loss": 0.24788963891096882
+    },
+    {
+      "epoch": 2,
+      "loss": 0.08991890221547622
+    },
+    {
+      "epoch": 3,
+      "loss": 0.07195792405807472
+    },
+    {
+      "epoch": 4,
+      "loss": 0.058559230841383654
+    },
+    {
+      "epoch": 5,
+      "loss": 0.05060049223915472
+    },
+    {
+      "epoch": 6,
+      "loss": 0.04045276301489635
+    }
+  ],
+  "selection": "train_10..12 event F1, fixed decoder; refit train_00..12",
+  "component": {
+    "name": "cnn_lstm",
+    "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\research_v7\\cnn_lstm\\model.pt",
+    "kind": "research_nn",
+    "features": "base",
+    "weight": 1.0
+  }
+}

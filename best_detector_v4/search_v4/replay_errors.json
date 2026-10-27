@@ -1,0 +1,1684 @@
+[
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.7705882352941318,
+    "start_error": -0.5899999999999181,
+    "end_error": 0.19000000000005457,
+    "duration_error": 0.7799999999999727,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1317.25,
+      "t_end": 1320.65,
+      "score": 0.999515950679779,
+      "t_alarm": 1317.6000000000001
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1317.84,
+      "t_end": 1320.46,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.5600000000000213,
+    "start_error": -1.3099999999999454,
+    "end_error": 0.009999999999990905,
+    "duration_error": 1.3199999999999363,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 547.95,
+      "t_end": 550.95,
+      "score": 0.9984564781188965,
+      "t_alarm": 548.5
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 549.26,
+      "t_end": 550.94,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.64761904761902,
+    "start_error": -0.5699999999999932,
+    "end_error": 0.17000000000007276,
+    "duration_error": 0.7400000000000659,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 273.35,
+      "t_end": 275.45000000000005,
+      "score": 0.9976113438606262,
+      "t_alarm": 274.1
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 273.92,
+      "t_end": 275.28,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.7999999999999567,
+    "start_error": -0.17000000000007276,
+    "end_error": 0.25,
+    "duration_error": 0.42000000000007276,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1140.75,
+      "t_end": 1142.85,
+      "score": 0.9975486993789673,
+      "t_alarm": 1141.1000000000001
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1140.92,
+      "t_end": 1142.6,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.4465408805031216,
+    "start_error": 2.269999999999982,
+    "end_error": 0.37000000000011823,
+    "duration_error": -1.8999999999998636,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1686.15,
+      "t_end": 1688.65,
+      "score": 0.9966885447502136,
+      "t_alarm": 1686.7
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1683.88,
+      "t_end": 1688.28,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.327536231884055,
+    "start_error": 0.45000000000001705,
+    "end_error": 1.8700000000000045,
+    "duration_error": 1.4199999999999875,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 173.45000000000002,
+      "t_end": 176.45000000000002,
+      "score": 0.9955564141273499,
+      "t_alarm": 173.9
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 173.0,
+      "t_end": 174.58,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.7090909090908696,
+    "start_error": -0.09000000000014552,
+    "end_error": 0.5499999999999545,
+    "duration_error": 0.6400000000001,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1025.35,
+      "t_end": 1027.55,
+      "score": 0.9902392625808716,
+      "t_alarm": 1025.8
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1025.44,
+      "t_end": 1027.0,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.3399999999999939,
+    "start_error": -1.669999999999959,
+    "end_error": 0.3100000000000591,
+    "duration_error": 1.9800000000000182,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 338.45000000000005,
+      "t_end": 341.45000000000005,
+      "score": 0.9870685338973999,
+      "t_alarm": 339.1
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 340.12,
+      "t_end": 341.14,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.5268292682927146,
+    "start_error": -1.3899999999998727,
+    "end_error": 0.5499999999999545,
+    "duration_error": 1.9399999999998272,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1661.65,
+      "t_end": 1665.75,
+      "score": 0.9867168664932251,
+      "t_alarm": 1662.0
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1663.04,
+      "t_end": 1665.2,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.9069767441860292,
+    "start_error": -0.15000000000009095,
+    "end_error": -0.049999999999954525,
+    "duration_error": 0.10000000000013642,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1284.55,
+      "t_end": 1286.65,
+      "score": 0.9798392653465271,
+      "t_alarm": 1285.0
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1284.7,
+      "t_end": 1286.7,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.5,
+    "start_error": -0.6900000000000546,
+    "end_error": 1.3099999999999454,
+    "duration_error": 2.0,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1588.25,
+      "t_end": 1592.25,
+      "score": 0.9795918464660645,
+      "t_alarm": 1588.6000000000001
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1588.94,
+      "t_end": 1590.94,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.8295964125560995,
+    "start_error": -0.14999999999997726,
+    "end_error": -0.2299999999999045,
+    "duration_error": -0.07999999999992724,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 818.5500000000001,
+      "t_end": 820.5500000000001,
+      "score": 0.977807343006134,
+      "t_alarm": 818.9000000000001
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 818.7,
+      "t_end": 820.78,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.7777777777777848,
+    "start_error": -0.16999999999995907,
+    "end_error": 0.2300000000000182,
+    "duration_error": 0.39999999999997726,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 849.5500000000001,
+      "t_end": 851.35,
+      "score": 0.9776439666748047,
+      "t_alarm": 850.1
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 849.72,
+      "t_end": 851.12,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.7428571428571359,
+    "start_error": -0.029999999999972715,
+    "end_error": 0.5100000000000477,
+    "duration_error": 0.5400000000000205,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 467.65000000000003,
+      "t_end": 469.75000000000006,
+      "score": 0.9710714817047119,
+      "t_alarm": 468.0
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 467.68,
+      "t_end": 469.24,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.9090909090909058,
+    "start_error": 0.1700000000000017,
+    "end_error": -0.010000000000005116,
+    "duration_error": -0.18000000000000682,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 125.45,
+      "t_end": 127.25,
+      "score": 0.9651150703430176,
+      "t_alarm": 125.9
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 125.28,
+      "t_end": 127.26,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.75,
+    "start_error": 0.2500000000000071,
+    "end_error": -0.2499999999999929,
+    "duration_error": -0.5,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 38.150000000000006,
+      "t_end": 39.650000000000006,
+      "score": 0.9436271786689758,
+      "t_alarm": 38.5
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 37.9,
+      "t_end": 39.9,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_00",
+    "tiou": 0.5338753387534034,
+    "start_error": -1.42999999999995,
+    "end_error": -0.2899999999999636,
+    "duration_error": 1.1399999999999864,
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 861.0500000000001,
+      "t_end": 864.45,
+      "score": 0.8888806700706482,
+      "t_alarm": 861.4000000000001
+    },
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 862.48,
+      "t_end": 864.74,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_00",
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 50.52,
+      "t_end": 52.52,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_00",
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 807.72,
+      "t_end": 810.46,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_00",
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1485.02,
+      "t_end": 1487.02,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_00",
+    "truth": {
+      "stream_id": "val_00",
+      "t_start": 1508.1,
+      "t_end": 1510.1,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 28.150000000000002,
+      "t_end": 29.250000000000004,
+      "score": 0.9976740479469299,
+      "t_alarm": 28.6
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 51.45,
+      "t_end": 58.95,
+      "score": 0.9711569547653198,
+      "t_alarm": 51.800000000000004
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 121.15,
+      "t_end": 124.15,
+      "score": 0.8122192025184631,
+      "t_alarm": 121.80000000000001
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 193.45000000000002,
+      "t_end": 198.65,
+      "score": 0.9633792638778687,
+      "t_alarm": 194.5
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 602.35,
+      "t_end": 607.1500000000001,
+      "score": 0.728485107421875,
+      "t_alarm": 605.9
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 675.6500000000001,
+      "t_end": 677.5500000000001,
+      "score": 0.6782777905464172,
+      "t_alarm": 677.0
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 809.35,
+      "t_end": 812.1500000000001,
+      "score": 0.9972328543663025,
+      "t_alarm": 809.8000000000001
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1039.6499999999999,
+      "t_end": 1041.75,
+      "score": 0.9956785440444946,
+      "t_alarm": 1040.0
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1087.85,
+      "t_end": 1089.25,
+      "score": 0.6907999515533447,
+      "t_alarm": 1088.8
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1485.75,
+      "t_end": 1489.35,
+      "score": 0.9107680320739746,
+      "t_alarm": 1486.5
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1509.65,
+      "t_end": 1515.15,
+      "score": 0.9871379137039185,
+      "t_alarm": 1510.0
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_00",
+    "prediction": {
+      "stream_id": "val_00",
+      "t_start": 1713.55,
+      "t_end": 1718.95,
+      "score": 0.9449518918991089,
+      "t_alarm": 1714.0
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.5574468085106367,
+    "start_error": -0.8900000000001,
+    "end_error": -0.14999999999986358,
+    "duration_error": 0.7400000000002365,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1182.25,
+      "t_end": 1184.45,
+      "score": 0.999475359916687,
+      "t_alarm": 1183.0
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1183.14,
+      "t_end": 1184.6,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.9549839228295484,
+    "start_error": -0.13000000000010914,
+    "end_error": -0.009999999999990905,
+    "duration_error": 0.12000000000011823,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1636.75,
+      "t_end": 1639.85,
+      "score": 0.9994302988052368,
+      "t_alarm": 1637.7
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1636.88,
+      "t_end": 1639.86,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.6190476190476247,
+    "start_error": -0.5299999999999727,
+    "end_error": -0.19000000000005457,
+    "duration_error": 0.33999999999991815,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1300.75,
+      "t_end": 1302.45,
+      "score": 0.9990977048873901,
+      "t_alarm": 1301.1000000000001
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1301.28,
+      "t_end": 1302.64,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.5733333333333425,
+    "start_error": -0.8699999999999477,
+    "end_error": 0.410000000000025,
+    "duration_error": 1.2799999999999727,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 377.15000000000003,
+      "t_end": 380.15000000000003,
+      "score": 0.9984278082847595,
+      "t_alarm": 377.70000000000005
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 378.02,
+      "t_end": 379.74,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.42857142857145175,
+    "start_error": -1.4899999999998954,
+    "end_error": 0.11000000000001364,
+    "duration_error": 1.599999999999909,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1004.5500000000001,
+      "t_end": 1007.35,
+      "score": 0.9977729916572571,
+      "t_alarm": 1005.2
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1006.04,
+      "t_end": 1007.24,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.871345029239815,
+    "start_error": -0.1099999999999568,
+    "end_error": -0.1099999999999568,
+    "duration_error": 0.0,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 276.35,
+      "t_end": 277.95000000000005,
+      "score": 0.9965041279792786,
+      "t_alarm": 276.8
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 276.46,
+      "t_end": 278.06,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.5909090909090581,
+    "start_error": -0.7500000000002274,
+    "end_error": 0.14999999999986358,
+    "duration_error": 0.900000000000091,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1214.1499999999999,
+      "t_end": 1216.35,
+      "score": 0.9938562512397766,
+      "t_alarm": 1214.5
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1214.9,
+      "t_end": 1216.2,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.7157894736842155,
+    "start_error": -0.06999999999999318,
+    "end_error": 0.46999999999999886,
+    "duration_error": 0.539999999999992,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 218.65,
+      "t_end": 220.55,
+      "score": 0.99379563331604,
+      "t_alarm": 219.0
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 218.72,
+      "t_end": 220.08,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.5017793594306337,
+    "start_error": -0.7899999999999636,
+    "end_error": -0.6099999999999568,
+    "duration_error": 0.18000000000000682,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 491.35,
+      "t_end": 493.55000000000007,
+      "score": 0.987917423248291,
+      "t_alarm": 491.70000000000005
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 492.14,
+      "t_end": 494.16,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.8333333333333413,
+    "start_error": -0.30999999999994543,
+    "end_error": 0.09000000000003183,
+    "duration_error": 0.39999999999997726,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 899.0500000000001,
+      "t_end": 901.45,
+      "score": 0.9859643578529358,
+      "t_alarm": 899.6
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 899.36,
+      "t_end": 901.36,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.7196765498651804,
+    "start_error": -1.0300000000002,
+    "end_error": -0.009999999999990905,
+    "duration_error": 1.0200000000002092,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1682.35,
+      "t_end": 1686.05,
+      "score": 0.9800248742103577,
+      "t_alarm": 1683.0
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1683.38,
+      "t_end": 1686.06,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.6845878136199727,
+    "start_error": 0.09000000000014552,
+    "end_error": 0.790000000000191,
+    "duration_error": 0.7000000000000455,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1436.95,
+      "t_end": 1439.65,
+      "score": 0.9674382209777832,
+      "t_alarm": 1437.8000000000002
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1436.86,
+      "t_end": 1438.86,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.5199999999999818,
+    "start_error": -0.029999999999972715,
+    "end_error": 1.8900000000001,
+    "duration_error": 1.9200000000000728,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1144.75,
+      "t_end": 1148.75,
+      "score": 0.9669733643531799,
+      "t_alarm": 1145.9
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1144.78,
+      "t_end": 1146.86,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.7203389830508505,
+    "start_error": 0.09000000000000341,
+    "end_error": -0.5699999999999932,
+    "duration_error": -0.6599999999999966,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 248.85,
+      "t_end": 250.55,
+      "score": 0.9459399580955505,
+      "t_alarm": 249.5
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 248.76,
+      "t_end": 251.12,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.7450199203186506,
+    "start_error": 0.3100000000000591,
+    "end_error": 0.3300000000001546,
+    "duration_error": 0.020000000000095497,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 720.5500000000001,
+      "t_end": 722.7500000000001,
+      "score": 0.8549498915672302,
+      "t_alarm": 721.9000000000001
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 720.24,
+      "t_end": 722.42,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_01",
+    "tiou": 0.6399026763990135,
+    "start_error": -1.1700000000000728,
+    "end_error": -0.30999999999994543,
+    "duration_error": 0.8600000000001273,
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1451.75,
+      "t_end": 1455.55,
+      "score": 0.7631772756576538,
+      "t_alarm": 1453.3000000000002
+    },
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1452.92,
+      "t_end": 1455.86,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_01",
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1236.76,
+      "t_end": 1237.98,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_01",
+    "truth": {
+      "stream_id": "val_01",
+      "t_start": 1750.58,
+      "t_end": 1752.08,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_01",
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 205.45000000000002,
+      "t_end": 206.75,
+      "score": 0.9178163409233093,
+      "t_alarm": 206.10000000000002
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_01",
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 274.35,
+      "t_end": 275.75000000000006,
+      "score": 0.6940793395042419,
+      "t_alarm": 275.8
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_01",
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1231.95,
+      "t_end": 1237.75,
+      "score": 0.8594316244125366,
+      "t_alarm": 1233.0
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_01",
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1335.05,
+      "t_end": 1339.35,
+      "score": 0.9153176546096802,
+      "t_alarm": 1336.0
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_01",
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1402.05,
+      "t_end": 1404.45,
+      "score": 0.9958368539810181,
+      "t_alarm": 1402.4
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_01",
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1422.05,
+      "t_end": 1423.25,
+      "score": 0.92420893907547,
+      "t_alarm": 1422.4
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_01",
+    "prediction": {
+      "stream_id": "val_01",
+      "t_start": 1747.15,
+      "t_end": 1752.05,
+      "score": 0.9970165491104126,
+      "t_alarm": 1748.3000000000002
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.7999999999999902,
+    "start_error": -0.42999999999995,
+    "end_error": 0.030000000000086402,
+    "duration_error": 0.4600000000000364,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 533.35,
+      "t_end": 535.6500000000001,
+      "score": 0.9994686245918274,
+      "t_alarm": 533.7
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 533.78,
+      "t_end": 535.62,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.5960591133005045,
+    "start_error": -0.789999999999992,
+    "end_error": -0.029999999999972715,
+    "duration_error": 0.7600000000000193,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 201.95000000000002,
+      "t_end": 203.95000000000002,
+      "score": 0.9991843104362488,
+      "t_alarm": 202.60000000000002
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 202.74,
+      "t_end": 203.98,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.8428571428571614,
+    "start_error": -0.30999999999994543,
+    "end_error": 0.12999999999999545,
+    "duration_error": 0.4399999999999409,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 414.05000000000007,
+      "t_end": 416.85,
+      "score": 0.9991415739059448,
+      "t_alarm": 414.90000000000003
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 414.36,
+      "t_end": 416.72,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.46249999999999913,
+    "start_error": -1.6900000000000546,
+    "end_error": 0.029999999999972715,
+    "duration_error": 1.7200000000000273,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1580.35,
+      "t_end": 1583.55,
+      "score": 0.9987438321113586,
+      "t_alarm": 1580.7
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 1582.04,
+      "t_end": 1583.52,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.5729729729729671,
+    "start_error": -1.509999999999991,
+    "end_error": 0.07000000000005002,
+    "duration_error": 1.580000000000041,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 932.35,
+      "t_end": 936.0500000000001,
+      "score": 0.9957627654075623,
+      "t_alarm": 933.6
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 933.86,
+      "t_end": 935.98,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.4800000000000182,
+    "start_error": -1.2899999999999636,
+    "end_error": 0.009999999999990905,
+    "duration_error": 1.2999999999999545,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1475.45,
+      "t_end": 1477.95,
+      "score": 0.9948717951774597,
+      "t_alarm": 1475.9
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 1476.74,
+      "t_end": 1477.94,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.7310344827586137,
+    "start_error": -0.6299999999999386,
+    "end_error": 0.15000000000009095,
+    "duration_error": 0.7800000000000296,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 363.15000000000003,
+      "t_end": 366.05000000000007,
+      "score": 0.9916209578514099,
+      "t_alarm": 364.0
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 363.78,
+      "t_end": 365.9,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.30793650793651883,
+    "start_error": -0.12999999999988177,
+    "end_error": 4.230000000000018,
+    "duration_error": 4.3599999999999,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 641.2500000000001,
+      "t_end": 647.5500000000001,
+      "score": 0.9852164387702942,
+      "t_alarm": 641.7
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 641.38,
+      "t_end": 643.32,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.5246376811593803,
+    "start_error": 1.0500000000000682,
+    "end_error": 0.5900000000001455,
+    "duration_error": -0.4599999999999227,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 652.85,
+      "t_end": 655.2500000000001,
+      "score": 0.9737394452095032,
+      "t_alarm": 653.3000000000001
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 651.8,
+      "t_end": 654.66,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.7333333333334429,
+    "start_error": -0.049999999999954525,
+    "end_error": 0.4299999999998363,
+    "duration_error": 0.4799999999997908,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1693.55,
+      "t_end": 1695.35,
+      "score": 0.9677828550338745,
+      "t_alarm": 1694.0
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 1693.6,
+      "t_end": 1694.92,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.716129032258068,
+    "start_error": -0.14999999999997726,
+    "end_error": 0.7300000000000182,
+    "duration_error": 0.8799999999999955,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 774.45,
+      "t_end": 777.5500000000001,
+      "score": 0.9653707146644592,
+      "t_alarm": 775.3000000000001
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 774.6,
+      "t_end": 776.82,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.7872340425531753,
+    "start_error": -0.30999999999994543,
+    "end_error": -0.39000000000010004,
+    "duration_error": -0.08000000000015461,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1461.15,
+      "t_end": 1464.05,
+      "score": 0.9635271430015564,
+      "t_alarm": 1461.7
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 1461.46,
+      "t_end": 1464.44,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.8566552901023888,
+    "start_error": 0.3299999999999983,
+    "end_error": 0.09000000000000341,
+    "duration_error": -0.23999999999999488,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 89.85,
+      "t_end": 92.45,
+      "score": 0.9602614045143127,
+      "t_alarm": 90.4
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 89.52,
+      "t_end": 92.36,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.3778705636743367,
+    "start_error": -2.7899999999999636,
+    "end_error": -0.18999999999994088,
+    "duration_error": 2.6000000000000227,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 454.45000000000005,
+      "t_end": 459.05000000000007,
+      "score": 0.959360659122467,
+      "t_alarm": 454.8
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 457.24,
+      "t_end": 459.24,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.7812500000000167,
+    "start_error": 0.19000000000005457,
+    "end_error": -0.6499999999998636,
+    "duration_error": -0.8399999999999181,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 906.6500000000001,
+      "t_end": 909.6500000000001,
+      "score": 0.7257396578788757,
+      "t_alarm": 908.1
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 906.46,
+      "t_end": 910.3,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_02",
+    "tiou": 0.4020100502512316,
+    "start_error": 2.1900000000000546,
+    "end_error": -0.19000000000005457,
+    "duration_error": -2.380000000000109,
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1608.25,
+      "t_end": 1609.85,
+      "score": 0.6837254762649536,
+      "t_alarm": 1609.1000000000001
+    },
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 1606.06,
+      "t_end": 1610.04,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_02",
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 309.9,
+      "t_end": 311.9,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_02",
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 1302.84,
+      "t_end": 1304.84,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "miss",
+    "stream_id": "val_02",
+    "truth": {
+      "stream_id": "val_02",
+      "t_start": 1753.84,
+      "t_end": 1754.94,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_02",
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 14.25,
+      "t_end": 15.450000000000001,
+      "score": 0.7596849799156189,
+      "t_alarm": 14.8
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_02",
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 311.35,
+      "t_end": 315.85,
+      "score": 0.9698396325111389,
+      "t_alarm": 311.90000000000003
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_02",
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1102.25,
+      "t_end": 1103.95,
+      "score": 0.996396541595459,
+      "t_alarm": 1103.0
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_02",
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1304.45,
+      "t_end": 1308.55,
+      "score": 0.9581660628318787,
+      "t_alarm": 1305.3000000000002
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_02",
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1548.15,
+      "t_end": 1550.45,
+      "score": 0.9956344366073608,
+      "t_alarm": 1548.5
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_02",
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1650.25,
+      "t_end": 1651.25,
+      "score": 0.9903205633163452,
+      "t_alarm": 1650.6000000000001
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_02",
+    "prediction": {
+      "stream_id": "val_02",
+      "t_start": 1753.85,
+      "t_end": 1759.95,
+      "score": 0.9916767477989197,
+      "t_alarm": 1754.6000000000001
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_03",
+    "tiou": 0.8426966292134602,
+    "start_error": 0.27000000000003865,
+    "end_error": 0.1500000000000341,
+    "duration_error": -0.12000000000000455,
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 331.85,
+      "t_end": 334.25000000000006,
+      "score": 0.9992351531982422,
+      "t_alarm": 332.3
+    },
+    "truth": {
+      "stream_id": "val_03",
+      "t_start": 331.58,
+      "t_end": 334.1,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_03",
+    "tiou": 0.6705882352941586,
+    "start_error": -0.19000000000005457,
+    "end_error": 0.36999999999989086,
+    "duration_error": 0.5599999999999454,
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 1449.05,
+      "t_end": 1450.75,
+      "score": 0.9878193736076355,
+      "t_alarm": 1449.4
+    },
+    "truth": {
+      "stream_id": "val_03",
+      "t_start": 1449.24,
+      "t_end": 1450.38,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_03",
+    "tiou": 0.34166666666669077,
+    "start_error": -2.8299999999999272,
+    "end_error": 0.32999999999992724,
+    "duration_error": 3.1599999999998545,
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 1572.45,
+      "t_end": 1577.25,
+      "score": 0.9633595943450928,
+      "t_alarm": 1573.3000000000002
+    },
+    "truth": {
+      "stream_id": "val_03",
+      "t_start": 1575.28,
+      "t_end": 1576.92,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_03",
+    "tiou": 0.5529411764705876,
+    "start_error": -1.509999999999998,
+    "end_error": 0.010000000000005116,
+    "duration_error": 1.5200000000000031,
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 30.150000000000002,
+      "t_end": 33.550000000000004,
+      "score": 0.9598796963691711,
+      "t_alarm": 31.700000000000003
+    },
+    "truth": {
+      "stream_id": "val_03",
+      "t_start": 31.66,
+      "t_end": 33.54,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_03",
+    "tiou": 0.9479553903345364,
+    "start_error": 0.09000000000014552,
+    "end_error": 0.049999999999954525,
+    "duration_error": -0.040000000000190994,
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 1082.95,
+      "t_end": 1085.55,
+      "score": 0.9412187933921814,
+      "t_alarm": 1083.3
+    },
+    "truth": {
+      "stream_id": "val_03",
+      "t_start": 1082.86,
+      "t_end": 1085.5,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_03",
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 207.65,
+      "t_end": 209.25,
+      "score": 0.6687925457954407,
+      "t_alarm": 208.10000000000002
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_03",
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 585.5500000000001,
+      "t_end": 586.85,
+      "score": 0.8579521775245667,
+      "t_alarm": 586.0
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_03",
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 647.45,
+      "t_end": 648.5500000000001,
+      "score": 0.5651464462280273,
+      "t_alarm": 648.5
+    }
+  },
+  {
+    "kind": "false_alarm",
+    "stream_id": "val_03",
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 741.6500000000001,
+      "t_end": 743.5500000000001,
+      "score": 0.8973672986030579,
+      "t_alarm": 742.1
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_03",
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 1068.6499999999999,
+      "t_end": 1072.25,
+      "score": 0.6333392858505249,
+      "t_alarm": 1070.4
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_03",
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 1321.85,
+      "t_end": 1322.75,
+      "score": 0.8860167860984802,
+      "t_alarm": 1322.4
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_03",
+    "prediction": {
+      "stream_id": "val_03",
+      "t_start": 1491.65,
+      "t_end": 1494.95,
+      "score": 0.772526741027832,
+      "t_alarm": 1492.7
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_04",
+    "tiou": 0.48461538461538356,
+    "start_error": -1.1899999999999977,
+    "end_error": 0.15000000000000568,
+    "duration_error": 1.3400000000000034,
+    "prediction": {
+      "stream_id": "val_04",
+      "t_start": 24.450000000000003,
+      "t_end": 27.050000000000004,
+      "score": 0.9990959167480469,
+      "t_alarm": 25.0
+    },
+    "truth": {
+      "stream_id": "val_04",
+      "t_start": 25.64,
+      "t_end": 26.9,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_04",
+    "tiou": 0.7636363636363682,
+    "start_error": -0.10999999999999233,
+    "end_error": 0.4099999999999966,
+    "duration_error": 0.5199999999999889,
+    "prediction": {
+      "stream_id": "val_04",
+      "t_start": 63.25000000000001,
+      "t_end": 65.45,
+      "score": 0.9833778142929077,
+      "t_alarm": 63.6
+    },
+    "truth": {
+      "stream_id": "val_04",
+      "t_start": 63.36,
+      "t_end": 65.04,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_04",
+    "tiou": 0.625974025974026,
+    "start_error": 0.25,
+    "end_error": 1.1899999999999977,
+    "duration_error": 0.9399999999999977,
+    "prediction": {
+      "stream_id": "val_04",
+      "t_start": 153.25,
+      "t_end": 156.85,
+      "score": 0.9658395648002625,
+      "t_alarm": 153.70000000000002
+    },
+    "truth": {
+      "stream_id": "val_04",
+      "t_start": 153.0,
+      "t_end": 155.66,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "match",
+    "stream_id": "val_04",
+    "tiou": 0.6214285714285784,
+    "start_error": -1.009999999999991,
+    "end_error": 0.04999999999998295,
+    "duration_error": 1.0599999999999739,
+    "prediction": {
+      "stream_id": "val_04",
+      "t_start": 171.55,
+      "t_end": 174.35,
+      "score": 0.9346913695335388,
+      "t_alarm": 172.5
+    },
+    "truth": {
+      "stream_id": "val_04",
+      "t_start": 172.56,
+      "t_end": 174.3,
+      "ignore": false
+    }
+  },
+  {
+    "kind": "ignored_prediction",
+    "stream_id": "val_04",
+    "prediction": {
+      "stream_id": "val_04",
+      "t_start": 39.050000000000004,
+      "t_end": 45.45,
+      "score": 0.9461135268211365,
+      "t_alarm": 39.7
+    }
+  }
+]

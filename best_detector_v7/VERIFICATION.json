@@ -1,0 +1,10 @@
+{
+  "model_probability_replay": "passed all five validation streams",
+  "official_csv_validation": "passed",
+  "unlabeled_synthetic_test": "passed; synthetic output excluded from package",
+  "temporal_causality_chunk_gradients": "passed",
+  "new_neural_causality_chunk_state_gradients": "passed all three architectures",
+  "installed_file_hash_comparison": "passed",
+  "evaluator_sha256": "df23749689ac2a41861f400059b18a575ada32ca91ea49733d9d219c3d9d4daa",
+  "hidden_test_evaluated": false
+}

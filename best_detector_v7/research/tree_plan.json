@@ -1,0 +1,58 @@
+{
+  "specifications": [
+    [
+      "xgb_motion4",
+      "xgb",
+      "motion",
+      4
+    ],
+    [
+      "xgb_motion6",
+      "xgb",
+      "motion",
+      6
+    ],
+    [
+      "xgb_base6",
+      "xgb",
+      "base",
+      6
+    ],
+    [
+      "lgb_motion15",
+      "lgb",
+      "motion",
+      15
+    ],
+    [
+      "lgb_motion31",
+      "lgb",
+      "motion",
+      31
+    ],
+    [
+      "lgb_base31",
+      "lgb",
+      "base",
+      31
+    ],
+    [
+      "cat_motion6",
+      "cat",
+      "motion",
+      6
+    ],
+    [
+      "cat_base6",
+      "cat",
+      "base",
+      6
+    ]
+  ],
+  "maximum_rounds": 600,
+  "early_stop_patience": 50,
+  "probe_train": "train_00..09",
+  "probe_validation": "train_10..12",
+  "final_fit": "all 13 training streams",
+  "note": "Internal streams can share source subjects. This is not subject-disjoint cross-validation."
+}

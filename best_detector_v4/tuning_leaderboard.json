@@ -1,0 +1,693 @@
+[
+  {
+    "name": "top_two",
+    "decoder": {
+      "high": 0.55,
+      "low": 0.275,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": -0.15,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.8135593220338984,
+      "start_error_median_abs": 0.45000000000001705,
+      "false_alarms_per_hour": 7.480335783961857
+    },
+    "key": [
+      0.8135593220338984,
+      -0.45000000000001705,
+      -7.480335783961857
+    ],
+    "components": [
+      {
+        "name": "motion_only",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\motion_only\\model.joblib",
+        "kind": "tree",
+        "features": "motion",
+        "weight": 0.5
+      },
+      {
+        "name": "tcn16_seed2029",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\tcn16_seed2029\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.5,
+        "delay": 0.0
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "motion_only",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": 0.0,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.8057971014492754,
+      "start_error_median_abs": 0.30999999999994543,
+      "false_alarms_per_hour": 6.120274732332429
+    },
+    "key": [
+      0.8057971014492754,
+      -0.30999999999994543,
+      -6.120274732332429
+    ],
+    "components": [
+      {
+        "name": "motion_only",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\motion_only\\model.joblib",
+        "kind": "tree",
+        "features": "motion",
+        "weight": 1.0
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "tcn16_delay1_plus_v3",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 2,
+      "smooth": 1,
+      "start_shift": -0.3,
+      "end_shift": -0.3
+    },
+    "ranking": {
+      "f1_mean": 0.8000000000000002,
+      "start_error_median_abs": 0.42000000000007276,
+      "false_alarms_per_hour": 8.840396835591287
+    },
+    "key": [
+      0.8000000000000002,
+      -0.42000000000007276,
+      -8.840396835591287
+    ],
+    "components": [
+      {
+        "name": "tcn16_delay1",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\tcn16_delay1\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.5,
+        "delay": 1.0
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 1.0
+  },
+  {
+    "name": "tcn16_seed2029_plus_v3",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 5,
+      "smooth": 3,
+      "start_shift": -0.3,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.7931034482758621,
+      "start_error_median_abs": 0.5799999999999841,
+      "false_alarms_per_hour": 6.120274732332429
+    },
+    "key": [
+      0.7931034482758621,
+      -0.5799999999999841,
+      -6.120274732332429
+    ],
+    "components": [
+      {
+        "name": "tcn16_seed2029",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\tcn16_seed2029\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.5,
+        "delay": 0.0
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "motion_only_plus_v3",
+    "decoder": {
+      "high": 0.55,
+      "low": 0.275,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": 0.0,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.792022792022792,
+      "start_error_median_abs": 0.4599999999999156,
+      "false_alarms_per_hour": 7.480335783961857
+    },
+    "key": [
+      0.792022792022792,
+      -0.4599999999999156,
+      -7.480335783961857
+    ],
+    "components": [
+      {
+        "name": "motion_only",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\motion_only\\model.joblib",
+        "kind": "tree",
+        "features": "motion",
+        "weight": 0.5
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "blend_v3",
+    "decoder": {
+      "high": 0.4,
+      "low": 0.2,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": -0.3,
+      "end_shift": 0.0
+    },
+    "ranking": {
+      "f1_mean": 0.7833333333333332,
+      "start_error_median_abs": 0.8399999999996908,
+      "false_alarms_per_hour": 8.840396835591287
+    },
+    "key": [
+      0.7833333333333332,
+      -0.8399999999996908,
+      -8.840396835591287
+    ],
+    "components": [
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.7
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.3
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "tcn16_seed2029",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 5,
+      "smooth": 3,
+      "start_shift": 0.0,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.7787114845938374,
+      "start_error_median_abs": 0.4600000000000364,
+      "false_alarms_per_hour": 9.520427361406
+    },
+    "key": [
+      0.7787114845938374,
+      -0.4600000000000364,
+      -9.520427361406
+    ],
+    "components": [
+      {
+        "name": "tcn16_seed2029",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\tcn16_seed2029\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 1.0,
+        "delay": 0.0
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "boost_long_plus_v3",
+    "decoder": {
+      "high": 0.55,
+      "low": 0.275,
+      "gap": 2,
+      "smooth": 3,
+      "start_shift": -0.3,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.7740112994350282,
+      "start_error_median_abs": 0.30000000000001137,
+      "false_alarms_per_hour": 8.840396835591287
+    },
+    "key": [
+      0.7740112994350282,
+      -0.30000000000001137,
+      -8.840396835591287
+    ],
+    "components": [
+      {
+        "name": "boost_long",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\boost_long\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.5
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "boost_long",
+    "decoder": {
+      "high": 0.55,
+      "low": 0.275,
+      "gap": 5,
+      "smooth": 3,
+      "start_shift": -0.3,
+      "end_shift": -0.3
+    },
+    "ranking": {
+      "f1_mean": 0.773109243697479,
+      "start_error_median_abs": 0.45999999999997954,
+      "false_alarms_per_hour": 8.160366309776572
+    },
+    "key": [
+      0.773109243697479,
+      -0.45999999999997954,
+      -8.160366309776572
+    ],
+    "components": [
+      {
+        "name": "boost_long",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\boost_long\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 1.0
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "tcn16_delay1",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 5,
+      "smooth": 3,
+      "start_shift": -0.3,
+      "end_shift": 0.0
+    },
+    "ranking": {
+      "f1_mean": 0.7696476964769648,
+      "start_error_median_abs": 0.3399999999998471,
+      "false_alarms_per_hour": 10.200457887220715
+    },
+    "key": [
+      0.7696476964769648,
+      -0.3399999999998471,
+      -10.200457887220715
+    ],
+    "components": [
+      {
+        "name": "tcn16_delay1",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\tcn16_delay1\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 1.0,
+        "delay": 1.0
+      }
+    ],
+    "alarm_delay": 1.0
+  },
+  {
+    "name": "hard_negatives_plus_v3",
+    "decoder": {
+      "high": 0.25,
+      "low": 0.1875,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": 0.0,
+      "end_shift": -0.3
+    },
+    "ranking": {
+      "f1_mean": 0.7642276422764228,
+      "start_error_median_abs": 0.4900000000000091,
+      "false_alarms_per_hour": 11.560518938850143
+    },
+    "key": [
+      0.7642276422764228,
+      -0.4900000000000091,
+      -11.560518938850143
+    ],
+    "components": [
+      {
+        "name": "hard_negatives",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\hard_negatives\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.5
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "tcn16_seed2028_plus_v3",
+    "decoder": {
+      "high": 0.55,
+      "low": 0.41250000000000003,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": -0.3,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.7619047619047619,
+      "start_error_median_abs": 0.6000000000000227,
+      "false_alarms_per_hour": 8.160366309776572
+    },
+    "key": [
+      0.7619047619047619,
+      -0.6000000000000227,
+      -8.160366309776572
+    ],
+    "components": [
+      {
+        "name": "tcn16_seed2028",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\tcn16_seed2028\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.5,
+        "delay": 0.0
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "tcn16_seed2028",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 2,
+      "smooth": 3,
+      "start_shift": -0.3,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.7611111111111111,
+      "start_error_median_abs": 0.6099999999999284,
+      "false_alarms_per_hour": 9.520427361406
+    },
+    "key": [
+      0.7611111111111111,
+      -0.6099999999999284,
+      -9.520427361406
+    ],
+    "components": [
+      {
+        "name": "tcn16_seed2028",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\tcn16_seed2028\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 1.0,
+        "delay": 0.0
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "boost_context_plus_v3",
+    "decoder": {
+      "high": 0.25,
+      "low": 0.125,
+      "gap": 5,
+      "smooth": 3,
+      "start_shift": -0.3,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.7595628415300547,
+      "start_error_median_abs": 0.7200000000000273,
+      "false_alarms_per_hour": 10.200457887220715
+    },
+    "key": [
+      0.7595628415300547,
+      -0.7200000000000273,
+      -10.200457887220715
+    ],
+    "components": [
+      {
+        "name": "boost_context",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\boost_context\\model.joblib",
+        "kind": "tree",
+        "features": "context",
+        "weight": 0.5
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "hard_negatives",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": 0.0,
+      "end_shift": 0.0
+    },
+    "ranking": {
+      "f1_mean": 0.7594202898550725,
+      "start_error_median_abs": 0.490000000000002,
+      "false_alarms_per_hour": 7.480335783961857
+    },
+    "key": [
+      0.7594202898550725,
+      -0.490000000000002,
+      -7.480335783961857
+    ],
+    "components": [
+      {
+        "name": "hard_negatives",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\hard_negatives\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 1.0
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "extra_trees_plus_v3",
+    "decoder": {
+      "high": 0.25,
+      "low": 0.125,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": 0.15,
+      "end_shift": -0.15
+    },
+    "ranking": {
+      "f1_mean": 0.726775956284153,
+      "start_error_median_abs": 0.7300000000002456,
+      "false_alarms_per_hour": 11.560518938850143
+    },
+    "key": [
+      0.726775956284153,
+      -0.7300000000002456,
+      -11.560518938850143
+    ],
+    "components": [
+      {
+        "name": "extra_trees",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\extra_trees\\model.joblib",
+        "kind": "tree",
+        "features": "context",
+        "weight": 0.5
+      },
+      {
+        "name": "original",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\run\\model.joblib",
+        "kind": "tree",
+        "features": "base",
+        "weight": 0.35
+      },
+      {
+        "name": "temporal_v2",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\temporal_v2\\model.pt",
+        "kind": "tcn",
+        "features": "base",
+        "weight": 0.15
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "extra_trees",
+    "decoder": {
+      "high": 0.25,
+      "low": 0.1875,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": -0.15,
+      "end_shift": -0.3
+    },
+    "ranking": {
+      "f1_mean": 0.7262872628726288,
+      "start_error_median_abs": 1.1199999999999761,
+      "false_alarms_per_hour": 11.560518938850143
+    },
+    "key": [
+      0.7262872628726288,
+      -1.1199999999999761,
+      -11.560518938850143
+    ],
+    "components": [
+      {
+        "name": "extra_trees",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\extra_trees\\model.joblib",
+        "kind": "tree",
+        "features": "context",
+        "weight": 1.0
+      }
+    ],
+    "alarm_delay": 0.0
+  },
+  {
+    "name": "boost_context",
+    "decoder": {
+      "high": 0.7,
+      "low": 0.35,
+      "gap": 5,
+      "smooth": 1,
+      "start_shift": 0.0,
+      "end_shift": 0.0
+    },
+    "ranking": {
+      "f1_mean": 0.6978193146417446,
+      "start_error_median_abs": 0.4399999999998272,
+      "false_alarms_per_hour": 6.8003052581471435
+    },
+    "key": [
+      0.6978193146417446,
+      -0.4399999999998272,
+      -6.8003052581471435
+    ],
+    "components": [
+      {
+        "name": "boost_context",
+        "path": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\search_v4\\boost_context\\model.joblib",
+        "kind": "tree",
+        "features": "context",
+        "weight": 1.0
+      }
+    ],
+    "alarm_delay": 0.0
+  }
+]

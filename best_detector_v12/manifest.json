@@ -1,0 +1,20 @@
+{
+  "iq_features.py": "bce129d5d6bf86413247fee4ef82fd2178124c8eb1f4ac2501f7d65df3c04804",
+  "predict.py": "209ab5912cd733e2e4e4df6db92e41826eff1dd91ce4fb009a9a7a252baf8cb7",
+  "README.md": "5da6ad423105828b4ffdfede009c85b807da819be78361b91634e291f829f81b",
+  "REPORT.md": "44d49c1ab9ece85bbf683f68a68fe54239b77f799037f42dbeaa0b3d2b3a400e",
+  "requirements.txt": "651284a422c53066b3220c2be2fd5060bc4bd0595bb6c97940d297a0d616a797",
+  "RESEARCH.md": "b60c4779d64c5887ec3cf0a8528d802ff3337d2dbe159235c858283f370bcc5a",
+  "Run-Best.ps1": "4dfe2a904d3f056ed8af23c5819b085a05563b3ea2570e4c7b7d579a979d737f",
+  "selected.json": "501cc0e29ccba897ecf3754d557ee0d9b61df77cc0264c96b9d2aee15aff112d",
+  "SUBMISSION_DECLARATION.txt": "1e7b7f9dec591736912204c82eb3943fa72f4294147fa12085ade741f3490000",
+  "uwb_detector.py": "cac458d27077cd50c86c60821d30bdc9340c28f71e6a476a4597590ade7f01c8",
+  "uwb_temporal_v2.py": "18b01bbe242d8bd53974b5d8e5bbfd5e6e2a4a9ed2c5e90890f637a92a126837",
+  "validation_reference.npz": "24cf457b072d3094efc76af6b58272b9777c5e490c66ac490dcce1a7d9c4a7d6",
+  "VERIFICATION.json": "279f289dcd2ab73180045c2248f393a4049576e597c1f27c03faa1ef87884572",
+  "models\\iq_short_future.joblib": "80993a26844e1d04c6c2c75f9c85a5a1081ac6f80e2cfee22bd8b4de723e541f",
+  "models\\motion.joblib": "45a6e8d56215c209febcf70037bcfe0c5e80eb9a64f22d8b48b3f3aed6f476ff",
+  "models\\seed28.pt": "dd9e5de1e7445214d3cbe1c1c37e2824245bf10b8633a1cca822c44b71bd0da6",
+  "models\\seed29.pt": "d2ab0ad58ab9d1525f729fb50da98b2ecb16c3fa9a8e3ff568e9c741b0a72cf1",
+  "models\\xgb_motion4.joblib": "07abdc700a0ad460eafc0d7a0e3122e5bd1e7951f10d626321c3df399198ffa3"
+}

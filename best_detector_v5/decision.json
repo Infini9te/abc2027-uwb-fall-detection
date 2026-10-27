@@ -1,0 +1,25 @@
+{
+  "selected": "seed28_seed29_motion0.65",
+  "promoted": true,
+  "previous": {
+    "f1_mean": 0.8105515587529976,
+    "start_error_median_abs": 0.4399999999999835,
+    "false_alarms_per_hour": 6.83315708126576
+  },
+  "candidate": {
+    "f1_mean": 0.823529411764706,
+    "start_error_median_abs": 0.4399999999998272,
+    "false_alarms_per_hour": 4.880826486618401
+  },
+  "diagnostic": {
+    "f1_mean": 0.8333333333333334,
+    "start_error_median_abs": 0.4200000000000159,
+    "false_alarms_per_hour": 3.4583461420227484
+  },
+  "previous_diagnostic": {
+    "f1_mean": 0.7936507936507936,
+    "start_error_median_abs": 0.27000000000003865,
+    "false_alarms_per_hour": 5.187519213034123
+  },
+  "note": "Nine predefined mixtures, decoder selection on val_00..02. Reused diagnostic, not an independent test. V4 is unchanged."
+}

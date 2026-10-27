@@ -1,0 +1,124 @@
+{
+  "packaged_validation": {
+    "status": "PASS official prediction validator",
+    "model": "V12 short I/Q future-context blend",
+    "prediction_count": 90,
+    "submission": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\best_detector_v12\\results\\val_submission.csv",
+    "submission_sha256": "b8f059671969239cecb0fd3e354981015f00e5a783e1580cb9fafd3c49861588",
+    "streams": {
+      "val_00": 1763.78,
+      "val_01": 1768.42,
+      "val_02": 1761.68,
+      "val_03": 1770.52,
+      "val_04": 311.4
+    },
+    "official_test_score": null,
+    "independent_streams": true,
+    "elapsed_seconds": 24.616784811019897,
+    "validation_ranking": {
+      "f1_mean": 0.8537170263788969,
+      "start_error_median_abs": 0.2499999999999858,
+      "false_alarms_per_hour": 4.880826486618401
+    },
+    "probability_replay_pass": true
+  },
+  "selection": {
+    "group_support": true,
+    "candidates": [
+      {
+        "variant": "short_reference/blend_v7",
+        "ranking": {
+          "f1_mean": 0.8537170263788969,
+          "start_error_median_abs": 0.2499999999999858,
+          "false_alarms_per_hour": 4.880826486618401
+        },
+        "primary": {
+          "theta": 0.3,
+          "tp": 62,
+          "fp": 10,
+          "fn": 5,
+          "precision": 0.8611111111111112,
+          "recall": 0.9253731343283582,
+          "f1": 0.8920863309352519,
+          "false_alarms_per_hour": 4.880826486618401,
+          "start_error_mean_abs": 0.5467741935483788,
+          "start_error_median_abs": 0.2499999999999858,
+          "end_error_mean_abs": 0.4722580645161357,
+          "end_error_median_abs": 0.25,
+          "mean_tiou": 0.6733093591144719,
+          "latency_mean": 0.7206451612903613,
+          "latency_median": 0.8000000000001251,
+          "n_ignored_ground_truth": 52,
+          "n_ignored_predictions": 18,
+          "start_within_0.5": 0.6290322580645161,
+          "end_within_0.5": 0.6935483870967742,
+          "start_within_1.0": 0.8225806451612904,
+          "end_within_1.0": 0.8870967741935484
+        },
+        "diagnostic": {
+          "f1_mean": 0.9473684210526315,
+          "start_error_median_abs": 0.16000000000000014,
+          "false_alarms_per_hour": 1.7291730710113742
+        }
+      },
+      {
+        "variant": "short_hard/blend_v7",
+        "ranking": {
+          "f1_mean": 0.8333333333333334,
+          "start_error_median_abs": 0.28999999999973625,
+          "false_alarms_per_hour": 4.880826486618401
+        },
+        "primary": {
+          "theta": 0.3,
+          "tp": 59,
+          "fp": 10,
+          "fn": 8,
+          "precision": 0.855072463768116,
+          "recall": 0.8805970149253731,
+          "f1": 0.8676470588235295,
+          "false_alarms_per_hour": 4.880826486618401,
+          "start_error_mean_abs": 0.5496610169491589,
+          "start_error_median_abs": 0.28999999999973625,
+          "end_error_mean_abs": 0.4323728813559349,
+          "end_error_median_abs": 0.25,
+          "mean_tiou": 0.6712485477417905,
+          "latency_mean": 1.0430508474576652,
+          "latency_median": 0.9600000000002638,
+          "n_ignored_ground_truth": 52,
+          "n_ignored_predictions": 10,
+          "start_within_0.5": 0.6779661016949152,
+          "end_within_0.5": 0.7796610169491526,
+          "start_within_1.0": 0.847457627118644,
+          "end_within_1.0": 0.8983050847457628
+        },
+        "diagnostic": {
+          "f1_mean": 0.9473684210526315,
+          "start_error_median_abs": 0.21000000000026375,
+          "false_alarms_per_hour": 1.7291730710113742
+        }
+      }
+    ],
+    "promoted": true,
+    "reason": "No automatic promotion; a passing candidate must be packaged and independently replayed before replacement.",
+    "saved_model_replay_max_difference": 0.0,
+    "frozen_file_checks": {
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\results\\selected.json": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\src\\abc2027\\evaluate.py": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\models\\xgb_motion4.joblib": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\models\\motion.joblib": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\models\\seed28.pt": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\models\\seed29.pt": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\uwb_detector.py": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\uwb_search_v4.py": true,
+      "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v7\\uwb_temporal_v2.py": true,
+      "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\official_test_v7\\test_submission.csv": true
+    },
+    "test_score": null,
+    "short_reference_group_support_from_v11": true,
+    "short_model_replay_exact": true,
+    "selected": "short_reference/blend_v7",
+    "package": "C:\\Users\\shubh\\Downloads\\abc2027_uwb_train_v1 (1)\\abc2027_uwb_train_v1\\best_detector_v12",
+    "v7_preserved": true,
+    "note": "Promoted as a separate validation-leading candidate after packaged replay. Hidden-test performance remains unknown. Selected model is the unweighted short-context control, not the hard-negative variant."
+  }
+}

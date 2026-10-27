@@ -1,0 +1,17 @@
+{
+  "status": "PASS official prediction validator",
+  "model": "V12 short I/Q future-context blend",
+  "prediction_count": 84,
+  "submission": "C:\\Users\\shubh\\Documents\\Codex\\2026-10-22\\how\\outputs\\official_test_v12\\test_submission.csv",
+  "submission_sha256": "197e1c12d2b980d711124b76ec7b7a101dc2b262ce7c3a245fb7acc991ad6227",
+  "streams": {
+    "test_00": 1769.8,
+    "test_01": 1771.12,
+    "test_02": 1697.12,
+    "test_03": 1769.76,
+    "test_04": 431.92
+  },
+  "official_test_score": null,
+  "independent_streams": true,
+  "elapsed_seconds": 30.197471380233765
+}

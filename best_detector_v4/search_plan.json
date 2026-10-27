@@ -1,0 +1,55 @@
+{
+  "specs": [
+    {
+      "name": "boost_long",
+      "kind": "boost",
+      "features": "base",
+      "iterations": 600,
+      "leaves": 23,
+      "l2": 5,
+      "positive": 3
+    },
+    {
+      "name": "boost_context",
+      "kind": "boost",
+      "features": "context",
+      "iterations": 400,
+      "leaves": 23,
+      "l2": 5,
+      "positive": 3
+    },
+    {
+      "name": "extra_trees",
+      "kind": "extra",
+      "features": "context",
+      "iterations": 200,
+      "leaves": 0,
+      "l2": 0,
+      "positive": 3
+    },
+    {
+      "name": "motion_only",
+      "kind": "boost",
+      "features": "motion",
+      "iterations": 400,
+      "leaves": 23,
+      "l2": 8,
+      "positive": 3
+    },
+    {
+      "name": "hard_negatives",
+      "kind": "boost",
+      "features": "base",
+      "iterations": 400,
+      "leaves": 31,
+      "l2": 8,
+      "positive": 3
+    }
+  ],
+  "neural_runs": [
+    "16 epochs seed2028",
+    "16 epochs seed2029"
+  ],
+  "selection": "val_00..02 only; then diagnostic rejection gate",
+  "evaluator_sha256": "df23749689ac2a41861f400059b18a575ada32ca91ea49733d9d219c3d9d4daa"
+}

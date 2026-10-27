@@ -1,0 +1,21 @@
+{
+  "files_sha256": {
+    "decision.json": "4caf0f15187d9550cea48853e3d7568a8937ebda75bf68d335f19a639ae78be6",
+    "diagnostic_report.json": "e65cc3ce1b6b9821de5ca448a76f7a024b4831b19554ac8f7acdcca05e453d0c",
+    "predict.py": "1d3850492d7d1f5ec1d4c0872547bf722a5912b65bb7aeb3a405a0330a8b8b22",
+    "README.md": "e64c65ab961f294fb4c2699c7cba27572cc57655409a6c96daa6ae3e917143c1",
+    "requirements.txt": "aabfcb2c4c21feaee436e071547be4b59ef53dbedc7edeff8a946fc004976840",
+    "Run-Best.ps1": "aa4ba83e5d988a06f4a946128becd4691696e6ce333cef6144c693841552b47c",
+    "trials.json": "71894ab4332102a7a8ae1d1dce1bb6294ceee26713e55ba6b9882ea51627c773",
+    "uwb_detector.py": "cac458d27077cd50c86c60821d30bdc9340c28f71e6a476a4597590ade7f01c8",
+    "uwb_search_v4.py": "c425d02b8ae1c9f9385ca211d94d88186bdfba3fa0a728b13a3497a947f8707b",
+    "uwb_search_v5.py": "f726e72837cd2283f2355b5d98f48a7ab93ce3160c52134b17c9d6c9a5811f67",
+    "uwb_temporal_v2.py": "18b01bbe242d8bd53974b5d8e5bbfd5e6e2a4a9ed2c5e90890f637a92a126837",
+    "validation_report.json": "56e5a4bd2c76c3c3d86cd08f5b1f34b5c5d948989cf5b6bcbeb10651de6178f9",
+    "models\\motion.joblib": "45a6e8d56215c209febcf70037bcfe0c5e80eb9a64f22d8b48b3f3aed6f476ff",
+    "models\\seed28.pt": "dd9e5de1e7445214d3cbe1c1c37e2824245bf10b8633a1cca822c44b71bd0da6",
+    "models\\seed29.pt": "d2ab0ad58ab9d1525f729fb50da98b2ecb16c3fa9a8e3ff568e9c741b0a72cf1",
+    "results\\selected.json": "5f4c45ccdc48698eec018f2adafc523e5b663ae8dd9879ab1d580504761a08c3",
+    "results\\selected_probabilities.npz": "93b65c13c7744d434c4f53b260e4e3850b42a4c1fab73578ca5930f6c68f8882"
+  }
+}

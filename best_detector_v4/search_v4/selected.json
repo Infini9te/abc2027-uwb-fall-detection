@@ -1,0 +1,45 @@
+{
+  "name": "top_two",
+  "decoder": {
+    "high": 0.55,
+    "low": 0.275,
+    "gap": 5,
+    "smooth": 1,
+    "start_shift": -0.15,
+    "end_shift": -0.15
+  },
+  "ranking": {
+    "f1_mean": 0.8135593220338984,
+    "start_error_median_abs": 0.45000000000001705,
+    "false_alarms_per_hour": 7.480335783961857
+  },
+  "key": [
+    0.8135593220338984,
+    -0.45000000000001705,
+    -7.480335783961857
+  ],
+  "components": [
+    {
+      "name": "motion_only",
+      "path": "models/motion_only.joblib",
+      "kind": "tree",
+      "features": "motion",
+      "weight": 0.5
+    },
+    {
+      "name": "tcn16_seed2029",
+      "path": "models/tcn16_seed2029.pt",
+      "kind": "tcn",
+      "features": "base",
+      "weight": 0.5,
+      "delay": 0.0
+    }
+  ],
+  "alarm_delay": 0.0,
+  "boundary": null,
+  "refined_tuning_key": [
+    0.8135593220338984,
+    -0.45000000000001705,
+    -7.480335783961857
+  ]
+}
